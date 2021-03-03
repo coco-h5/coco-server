@@ -1,0 +1,7 @@
+logs
+node_modules
+.idea
+run
+static
+rpc-*
+package-lock.json

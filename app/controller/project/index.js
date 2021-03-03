@@ -6,8 +6,6 @@ class ProjectController extends Controller {
   async createProject() {
 
   }
-
-
   async query() {
     const {
       id,
