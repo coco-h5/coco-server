@@ -30,6 +30,7 @@
     "npm": "^7.6.0"
   },
   "devDependencies": {
-    "egg-bin": "^4.15.0"
+    "egg-bin": "^4.15.0",
+    "egg-scripts": "^2.13.0"
   }
 }
