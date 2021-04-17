@@ -4,7 +4,8 @@
   "description": "coco server",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev",
+    "start": "egg-scripts start"
   },
   "repository": {
     "type": "git",
