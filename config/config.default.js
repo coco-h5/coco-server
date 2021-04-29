@@ -6,7 +6,7 @@ module.exports = appInfo => ({
     dir: path.join(__dirname, '../logs/coco-server'),
   },
   static: {
-    dir: path.join(appInfo.baseDir, 'static/coco-template/dist'),
+    dir: path.join(appInfo.baseDir, 'static/dist'),
     prefix: '/static/'
   }
 });
