@@ -14,17 +14,20 @@ class ProjectController extends Controller {
       version,
     } = pageConfig.config;
 
+    // todo 重要： 本地环境记得注释回回来！！！
     // 创建项目
     // github 上创建项目
-    const result = await service.project.createProject({
-      ...pageConfig.config,
-      name,
-      data: pageConfig,
-      templateConfig: {
-        templateName,
-        git: templateGit,
-      }
-    });
+    // const result = await service.project.createProject({
+    //   ...pageConfig.config,
+    //   name,
+    //   data: pageConfig,
+    //   templateConfig: {
+    //     templateName,
+    //     git: templateGit,
+    //   }
+    // });
+    // todo 重要：本地环境注释，result为mock结果
+    const result = {}
 
     // 数据库存储项目基础信息
     const project = await model.Project.create({

@@ -19,6 +19,7 @@ module.exports = {
     },
     domainWhiteList: [
       'http://localhost:8080',
+      'http://aaa.coco-h5.cn:8080'
     ]
   }
 };

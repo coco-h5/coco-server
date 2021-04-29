@@ -4,5 +4,9 @@ module.exports = appInfo => ({
   keys: 'coco', // 用于 cookie 的加解密，上线后就不要改了。
   logger: {
     dir: path.join(__dirname, '../logs/coco-server'),
+  },
+  static: {
+    dir: path.join(appInfo.baseDir, 'static/coco-template/dist'),
+    prefix: '/static/'
   }
 });
