@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = (app) => {
-  const { STRING, INTEGER } = app.Sequelize;
+  const { STRING, INTEGER, TEXT } = app.Sequelize;
 
   const Plugin = app.model.define(
     'plugin',
@@ -17,6 +17,7 @@ module.exports = (app) => {
       description: STRING(1000),
       version: STRING(100),
       downloadUrl: STRING(2000),
+      detail: TEXT,
     },
     {
       paranoid: true
